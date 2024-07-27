@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <!--Bootstrap 5.3-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+        <!--CSS-->
+        <link rel="stylesheet" href="style.css">
+
+        <!--ICON-->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+            integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+            crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div>
+            <nav class="navbar navbar-expand-lg d-flex justify-content-between align-items-center p-4">
+                <div class="container">
+                    <a class="navbar-brand" href="#" onclick="func1()">TalkWrite</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center align-items-center"
+                        id="navbarSupportedContent">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+
+                            <li class="nav-item">
+                                <a class="nav-link active ms-4" href="#" onclick="func()"><span
+                                        class="blog">Blog</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active ms-4" onclick="meth1()"><span class="blog">Method</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active ms-4"><span class="blog">Story-telling</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active ms-4"><span class="blog">Books</span></a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <button class="btn back bt" onclick="func2()">Contact Us</button>
+                </div>
+            </nav>
+        </div>
+        <div class="container" style="margin-top: 6rem;">
+            <div class="row col-12 ">
+                <div class="col-md-6 d-flex flex-column">
+                    <h1 class="fw-bold">It's nice to meet ya</h1>
+                    <p>For general enquiries, please fill out the form to get in touch. Alternatively, if you know your
+                        project details - head
+                        over to our project planner for a more refined step-by-step process.</p>
+                </div>
+                <div class="col-md-6 d-flex flex-column" style="width:500px">
+                    <input type="text" class="in1 p-2" placeholder="Name" id="name">
+                    <input type="email" class="in p-2" placeholder="Email Address" id="mail">
+                    <input type="number" class="in p-2" placeholder="Phone" id="number">
+                    <input type="text" class="in p-2" placeholder="Tell About Your Self" id="text">
+                    <button class="btn back1 bt mt-3 col-md-5 mt-5" onclick="submit()">Sent Message</button>
+                </div>
+            </div>
+        </div>
+        <div style="rotate: 180deg;"><svg class="w-full fill-current transform -translate-y-1 scale-105"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 162">
+                <path
+                    d="M1600 0v113.868c-91.328-1.407-173.577 60.877-297.907 45.57-124.33-15.308-103.654-33.11-207.373-63.606-69.147-20.33-143.387-20.33-222.72 0-56.554 17.89-114.692 23.901-174.415 18.036-89.585-8.798-84.69-15.89-199.92-48.532-89.414-25.328-211.396-25.328-247.427-27.283-68.21-3.7-151.622 9.683-250.238 40.15V0h1600z">
+                </path>
+            </svg></div>
+        <div class="container-fluid p-5" style="background-color: black; color:white;margin-top:6rem">
+            <div class="container">
+
+                <div class="row col-12">
+
+                    <div class=" mt-3 text-center">
+                        <h4 id="b"></h4>
+                        <h4 id="b1"></h4>
+                        <h4 id="b2"></h4>
+                        <h4 id="b3"></h4>
+                    </div>
+                    <div class="col-md-4 text-center mt-5">
+                        <h1 class="fw-bold">Call us</h1>
+                        <p>Our team is working remotely, please drop us an email.</p>
+                    </div>
+                    <div class="col-md-4 text-center mt-5">
+                        <h1 class="fw-bold">Email us</h1>
+                        <p><a class="mailto:objectivesolves@gmail.com"
+                                style="cursor: pointer;color:white;text-decoration:none">nakumashutosh18@gmail.com</a>
+                        </p>
+                    </div>
+                    <div class="col-md-4 text-center mt-5">
+                        <h1 class="fw-bold">Find us</h1>
+                        <p>L-104 Venus Parkland, Vejalpur - Ahmedabad</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section style="margin-top: 6rem;">
+            <div class="row m-0">
+                <div class="col-12 col-md-6">
+                    <img src="img/photo1.jpg" alt="" width="100%">
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-center align-items-start flex-column">
+                    <h1 style="font-size: 3.5rem;" class="fw-bold">Let's make <br> something great<br> together.</h1>
+                    <p class="mt-4" style="font-size: 1.3rem;">Whether it’s a new venture or existing brand.</p><button
+                        class="btn back1 bt mt-3">
+                        Get in touch</button>
+                </div>
+            </div>
+        </section>
+        <div class="container-fluid  p-0" id="contact" style="margin-top:8rem">
+            <footer class="text-center text-lg-start text-white" style="background-color: black">
+                <section class="d-flex justify-content-between p-4 flex-column flex-sm-row"
+                    style="background-color: black">
+                    <div class="p-2 d-flex align-items-center">
+                        <span>Get connected with us on social networks:</span>
+                    </div>
+                    <div class="p-2">
+                        <a href=" https://www.instagram.com/invites/contact/?i=16ioadpaj6ott&utm_content=o4nuhgn"
+                            class="text-white me-4" style="text-decoration: none;">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/objective-solutions-a92279237/" class="text-white me-4"
+                            style="text-decoration: none;">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                        <a href="https://github.com/objectivesolves" class="text-white me-4"
+                            style="text-decoration: none;">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </div>
+                </section>
+                <hr class="m-0">
+                <section>
+                    <div class="container text-center text-md-start mt-5">
+                        <div class="row mt-3 gy-3">
+                            <div class="col-12 col-md-4 mx-auto mb-4">
+                                <h6 class="text-uppercase fw-bold">TalkWrite</h6>
+                                <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                    style="width: 80px; background-color:rgb(255, 0, 230); height: 3px" />
+                                <p>
+                                    You must make a habit of thinking in terms of a DEFINE objective.
+                                    Ready for the Future <span>&#128077;&#127996;</span>
+                                </p>
+                            </div>
+
+
+                            <div class="col-12 col-sm-6 col-md-2 mx-auto mb-4">
+                                <h6 class="text-uppercase fw-bold">Podcast</h6>
+                                <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                    style="width: 70px; background-color: rgb(255, 0, 230); height: 2px" />
+                                <p>
+                                    <a href="https://www.android.com/intl/en_in/" class="text-white"
+                                        style="text-decoration:none">Biscoito</a>
+                                </p>
+                                <p>
+                                    <a href="https://reactjs.org/" class="text-white" style="text-decoration:none">This
+                                        is Digital</a>
+                                </p>
+                                <p>
+                                    <a href="https://www.php.net/" class="text-white"
+                                        style="text-decoration:none">Wavecast</a>
+                                </p>
+                                <p>
+                                    <a href="https://getbootstrap.com/" class="text-white"
+                                        style="text-decoration:none">Therapy
+                                        Pal</a>
+                                </p>
+                            </div>
+
+                            <div class="col-12 col-md-4 mx-auto mb-md-0 mb-4" id="contactus">
+                                <h6 class="text-uppercase fw-bold">Contact</h6>
+                                <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                    style="width: 60px; background-color: rgb(255, 0, 230); height: 2px" />
+                                <p><a href="tel:9409743110" style="text-decoration: none;color: white;"><i
+                                            class="fas fa-phone-alt mr-3 me-2"></i>
+                                        9328168550</a></p>
+                                <p><a href="mailto:objectivesolves@gmail.com"
+                                        style="text-decoration: none;color: white;"><i
+                                            class="fas fa-envelope mr-3 me-1"></i>
+                                        nakumashutosh18@gmail.com</a></p>
+                                <p><i class="fas fa-home mr-3 me-2"></i> Ahmedabad, Gujarat</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                    © 2023 Copyright:
+                    <a class="text-white" href="#" style="text-decoration: none;">TalkWrite</a>
+                </div>
+            </footer>
+
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
+
+</html>
